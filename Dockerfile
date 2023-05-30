@@ -57,5 +57,5 @@ RUN mkdir /ecoin/.canadaecoin
 VOLUME /ecoin/.canadaecoin
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-EXPOSE 38348/tcp
-EXPOSE 8048/tcp
+EXPOSE 34331/tcp
+EXPOSE 34330/tcp
