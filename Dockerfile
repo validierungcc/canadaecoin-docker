@@ -16,8 +16,7 @@ RUN apt-get update && \
         libminiupnpc-dev \
         libssl-dev \
         libdb++-dev \
-        ca-certificates \
-        bsdmainutils && \
+        ca-certificates && \
     rm -rf /var/lib/apt/lists/*
 
 # Create user and group
