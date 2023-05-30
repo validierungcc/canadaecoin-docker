@@ -14,7 +14,6 @@ Example docker-compose.yml
             container_name: canada-ecoin
             image: vfvalidierung/canada-ecoin
             restart: unless-stopped
-            user: 1000:1000
             ports:
                 - '4555:4555'
                 - '127.0.0.1:4444:4444'

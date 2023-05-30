@@ -21,7 +21,7 @@ echo "Created new configuration at ${ECOIN_CONF}"
 fi
 
 if [ $# -eq 0 ]; then
-  /usr/local/bin/canadaecoind -rpcbind=:34330 -rpcallowip=* -printtoconsole=1
+   /usr/local/bin/canadaecoind -rpcbind=0.0.0.0 -rpcport=34330 -rpcallowip=0.0.0.0/0 -printtoconsole=1
 else
   exec "$@"
 fi
