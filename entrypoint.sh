@@ -13,7 +13,7 @@ fi
 if [ ! -e "${ECOIN_CONF}" ]; then
   tee -a >${ECOIN_CONF} <<EOF
 server=1
-rpcuser=${ECOIN_RPCUSER:-emarkrpc}
+rpcuser=${ECOIN_RPCUSER:-canadaecoinrpc}
 rpcpassword=${ECOIN_RPCPASSWORD}
 rpcclienttimeout=${ECOIN_RPCCLIENTTIMEOUT:-30}
 EOF
