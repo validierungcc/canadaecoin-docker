@@ -57,6 +57,6 @@ RUN mkdir .canadaecoin
 VOLUME /aurora/.canadaecoin
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-EXPOSE 12340/tcp
-EXPOSE 12341/tcp
+EXPOSE 34331/tcp
+EXPOSE 34330/tcp
 COPY ./entrypoint.sh /
