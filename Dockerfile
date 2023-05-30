@@ -14,7 +14,6 @@ RUN apt-get update && \
         pkg-config \
         libboost-all-dev \
         libminiupnpc-dev \
-        libevent-dev \
         libssl-dev \
         libdb++-dev \
         ca-certificates \
@@ -56,8 +55,8 @@ RUN addgroup --gid 1000 ecoin && \
 
 
 USER ecoin
-RUN mkdir /ecoin/.ecoincoin
-VOLUME /ecoin/.fujicoin
+RUN mkdir /ecoin/.canadaecoin
+VOLUME /ecoin/.canadaecoin
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 EXPOSE 38348/tcp
