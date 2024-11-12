@@ -8,7 +8,6 @@ https://canadaecoin.site/
 Example docker-compose.yml
 
      ---
-    version: '3.9'
     services:
         canada-ecoin:
             container_name: canada-ecoin
